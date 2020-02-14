@@ -6,10 +6,11 @@ Its goal is the creation and maintenance of a blog made up of articles.
 The underlying database is MongoDB with the mongoose module.
 
 The file contains code for following HTTP requests:
-GET (Read)
-POST (Create)
-PUT & PATCH (Update)
-DELETE (Delete)
+
+- GET (Read)
+- POST (Create)
+- PUT & PATCH (Update)
+- DELETE (Delete)
 
 To start up the MongoDB server in your local machine, use the mongod command and specify a filesystem path to your database:
 
@@ -17,7 +18,8 @@ To start up the MongoDB server in your local machine, use the mongod command and
 
 Personally, I have used Robo 3T to visualize my database, as it provides a nice grafical user interface: https://robomongo.org/
 An alternative is to use the mongo shell which can be access by:
-mongo
+
+`mongo`
 
 To set up your server:
 - Inside the directory containing your server app.js file, initialize npm:
